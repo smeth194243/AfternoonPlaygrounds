@@ -2,7 +2,45 @@
 
 import UIKit
 
-import UIKit
-var DynamicVeiw=UIView(Frame:
-    CGRectMake(100, 200, 100, 100))
+var DynamicView = UIView(frame: CGRectMake(100, 200, 100, 100))
+DynamicView.backgroundColor = UIColor.greenColor()
+
+DynamicView.layer.cornerRadius=30
+DynamicView.layer.borderWidth=10
+DynamicView
+
+var cool = "This is cool!"
+
+var Button = UIButton(frame: CGRectMake(100, 200, 200, 200))
+
+var label = UILabel(frame: CGRectMake(100, 200, 300, 100))
+
+label.text = "Isaac is a really helpful friend"
+label.backgroundColor = UIColor.orangeColor()
+label.layer.masksToBounds = true
+label.layer.cornerRadius = 20
+label.textAlignment = NSTextAlignment.Center
+label
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
