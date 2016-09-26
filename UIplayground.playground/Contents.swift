@@ -15,12 +15,19 @@ var Button = UIButton(frame: CGRectMake(100, 200, 200, 200))
 
 var label = UILabel(frame: CGRectMake(100, 200, 300, 100))
 
-label.text = "Isaac is a really helpful friend"
+label.text = "Isaac is a really helpful friend!"
 label.backgroundColor = UIColor.orangeColor()
 label.layer.masksToBounds = true
 label.layer.cornerRadius = 20
 label.textAlignment = NSTextAlignment.Center
 label
+var sethlabel = UILabel(frame: CGRectMake(100, 200, 400, 100))
+
+sethlabel.text = "Coding can be difficult to understand sometimes."
+sethlabel.backgroundColor = UIColor.grayColor()
+sethlabel.layer.masksToBounds
+sethlabel.layer.cornerRadius = 30
+
 
 
 
