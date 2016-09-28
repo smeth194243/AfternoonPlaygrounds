@@ -15,10 +15,19 @@ BoringView.layer.cornerRadius = 30
 BoringView
 
 
-var cool = "This is cool!"
+var LastLabel = UIView(frame: CGRectMake(100, 200, 100, 100))
+LastLabel.backgroundColor = UIColor.brownColor()
+LastLabel.layer.borderWidth = 7
+LastLabel.layer.cornerRadius = 100
+LastLabel
 
 var button = UIButton(frame: CGRectMake(100, 200, 100, 100))
 button.backgroundColor = UIColor.blueColor()
+button
+
+var Coolbutton = UIButton(frame: CGRectMake(100, 200, 100, 100))
+button.backgroundColor = UIColor.purpleColor()
+Coolbutton
 
 var label = UILabel(frame: CGRectMake(100, 200, 300, 100))
 
